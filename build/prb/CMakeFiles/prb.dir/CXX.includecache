@@ -1,0 +1,78 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/CPP/cfl/Error.hpp
+exception
+-
+string
+-
+cfl/Macros.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/CPP/cfl/cfl/Macros.hpp
+cfl/Inline/iError.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/CPP/cfl/cfl/Inline/iError.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/CPP/cfl/Function.hpp
+functional
+-
+limits
+-
+memory
+-
+cfl/Inline/iFunction.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/CPP/cfl/cfl/Inline/iFunction.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/CPP/cfl/Inline/iError.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/CPP/cfl/Inline/iFunction.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/CPP/cfl/Inline/iInterp.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/CPP/cfl/Interp.hpp
+vector
+-
+cfl/Function.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/CPP/cfl/cfl/Function.hpp
+cfl/Inline/iInterp.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/CPP/cfl/cfl/Inline/iInterp.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/CPP/cfl/Macros.hpp
+assert.h
+-
+algorithm
+-
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/CPP/prb/Interp.hpp
+cfl/Interp.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/CPP/prb/cfl/Interp.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/CPP/prb/Src/Interp.cpp
+prb/Interp.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/CPP/prb/Src/prb/Interp.hpp
+cfl/Error.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/CPP/prb/Src/cfl/Error.hpp
+gsl/gsl_spline.h
+-
+
+/usr/local/include/gsl/gsl_inline.h
+
+/usr/local/include/gsl/gsl_interp.h
+stdlib.h
+-
+gsl/gsl_inline.h
+-
+gsl/gsl_types.h
+-
+
+/usr/local/include/gsl/gsl_spline.h
+stdlib.h
+-
+gsl/gsl_interp.h
+-
+
+/usr/local/include/gsl/gsl_types.h
+
