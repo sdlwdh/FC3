@@ -162,6 +162,32 @@ prb/fast:
 	$(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/build
 .PHONY : prb/fast
 
+#=============================================================================
+# Target rules for targets named test_prb
+
+# Build rule for target.
+test_prb: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_prb
+.PHONY : test_prb
+
+# fast build rule for target.
+test_prb/fast:
+	$(MAKE) -f test_prb/CMakeFiles/test_prb.dir/build.make test_prb/CMakeFiles/test_prb.dir/build
+.PHONY : test_prb/fast
+
+#=============================================================================
+# Target rules for targets named test_set1
+
+# Build rule for target.
+test_set1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_set1
+.PHONY : test_set1
+
+# fast build rule for target.
+test_set1/fast:
+	$(MAKE) -f test_set1/CMakeFiles/test_set1.dir/build.make test_set1/CMakeFiles/test_set1.dir/build
+.PHONY : test_set1/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -174,6 +200,8 @@ help:
 	@echo "... test_all"
 	@echo "... test_cfl"
 	@echo "... prb"
+	@echo "... test_prb"
+	@echo "... test_set1"
 .PHONY : help
 
 

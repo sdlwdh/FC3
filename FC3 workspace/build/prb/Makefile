@@ -125,6 +125,33 @@ prb/fast:
 	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/build
 .PHONY : prb/fast
 
+Src/Interp.o: Src/Interp.cpp.o
+
+.PHONY : Src/Interp.o
+
+# target to build an object file
+Src/Interp.cpp.o:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Interp.cpp.o
+.PHONY : Src/Interp.cpp.o
+
+Src/Interp.i: Src/Interp.cpp.i
+
+.PHONY : Src/Interp.i
+
+# target to preprocess a source file
+Src/Interp.cpp.i:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Interp.cpp.i
+.PHONY : Src/Interp.cpp.i
+
+Src/Interp.s: Src/Interp.cpp.s
+
+.PHONY : Src/Interp.s
+
+# target to generate assembly for a file
+Src/Interp.cpp.s:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Interp.cpp.s
+.PHONY : Src/Interp.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -134,6 +161,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... prb"
+	@echo "... Src/Interp.o"
+	@echo "... Src/Interp.i"
+	@echo "... Src/Interp.s"
 .PHONY : help
 
 

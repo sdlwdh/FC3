@@ -11,7 +11,9 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -75,6 +77,34 @@
 					[
 						1
 					]
+				},
+				{
+					"build" : "test_prb",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test_prb",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "test_set1",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test_set1",
+					"targetIndexes" : 
+					[
+						5
+					]
 				}
 			],
 			"name" : "Debug",
@@ -87,7 +117,9 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6
 					],
 					"name" : "FC-III",
 					"targetIndexes" : 
@@ -95,7 +127,9 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5
 					]
 				}
 			],
@@ -111,7 +145,7 @@
 				{
 					"directoryIndex" : 4,
 					"id" : "prb::@6a24f3726a38e7a1928f",
-					"jsonFile" : "target-prb-Debug-a274b9529f456d19776f.json",
+					"jsonFile" : "target-prb-Debug-9d009ecc502e74351145.json",
 					"name" : "prb",
 					"projectIndex" : 0
 				},
@@ -127,6 +161,20 @@
 					"id" : "test_cfl::@dde391362b9ac9db4255",
 					"jsonFile" : "target-test_cfl-Debug-c3c3fd07e46065a00519.json",
 					"name" : "test_cfl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "test_prb::@9960d2e765fb95594f0c",
+					"jsonFile" : "target-test_prb-Debug-2c5c1a02491441b7f308.json",
+					"name" : "test_prb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "test_set1::@4681aeff704d28422404",
+					"jsonFile" : "target-test_set1-Debug-3b74b98aae0d94915e33.json",
+					"name" : "test_set1",
 					"projectIndex" : 0
 				}
 			]

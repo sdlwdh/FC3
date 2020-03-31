@@ -38,9 +38,9 @@ add_subdirectory(test)
 add_subdirectory(test_cfl)
 
 add_subdirectory(prb)
-# add_subdirectory(test_prb)
+add_subdirectory(test_prb)
 
-# add_subdirectory(test_set1)
+add_subdirectory(test_set1)
 # add_subdirectory(test_set2)
 # add_subdirectory(test_set3)
 # add_subdirectory(test_set4)

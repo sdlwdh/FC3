@@ -1,2 +1,2 @@
-/usr/bin/ar qc libprb.a  
+/usr/bin/ar qc libprb.a  CMakeFiles/prb.dir/Src/Interp.cpp.o
 /usr/bin/ranlib libprb.a
