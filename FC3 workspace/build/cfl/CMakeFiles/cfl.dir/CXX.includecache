@@ -1,0 +1,126 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Approx.hpp
+vector
+-
+cfl/Function.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Function.hpp
+cfl/Macros.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Macros.hpp
+cfl/Inline/iApprox.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iApprox.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Error.hpp
+exception
+-
+string
+-
+cfl/Macros.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Macros.hpp
+cfl/Inline/iError.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iError.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Fit.hpp
+vector
+-
+cfl/Function.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Function.hpp
+cfl/Inline/iFit.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iFit.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Function.hpp
+functional
+-
+limits
+-
+memory
+-
+cfl/Inline/iFunction.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iFunction.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/GaussRollback.hpp
+valarray
+-
+memory
+-
+Macros.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Macros.hpp
+cfl/Inline/iGaussRollback.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iGaussRollback.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Ind.hpp
+memory
+-
+valarray
+-
+cfl/Inline/iInd.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iInd.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iApprox.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iError.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iFit.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iFunction.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iGaussRollback.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iInd.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iInterp.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Interp.hpp
+vector
+-
+cfl/Function.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Function.hpp
+cfl/Inline/iInterp.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iInterp.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Macros.hpp
+assert.h
+-
+algorithm
+-
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Src/Approx.cpp
+cfl/Approx.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Src/cfl/Approx.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Src/Error.cpp
+cfl/Error.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Src/cfl/Error.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Src/Fit.cpp
+cfl/Fit.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Src/cfl/Fit.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Src/Function.cpp
+cmath
+-
+cfl/Function.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Src/cfl/Function.hpp
+cfl/Error.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Src/cfl/Error.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Src/GaussRollback.cpp
+cfl/GaussRollback.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Src/cfl/GaussRollback.hpp
+cfl/Error.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Src/cfl/Error.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Src/Ind.cpp
+cfl/Ind.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Src/cfl/Ind.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Src/Interp.cpp
+cfl/Interp.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Src/cfl/Interp.hpp
+

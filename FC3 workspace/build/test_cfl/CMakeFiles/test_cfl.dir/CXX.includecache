@@ -1,0 +1,74 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Function.hpp
+functional
+-
+limits
+-
+memory
+-
+cfl/Inline/iFunction.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iFunction.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iFunction.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Index.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Inline/iMain.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Main.hpp
+iostream
+-
+fstream
+-
+iomanip
+-
+vector
+-
+valarray
+-
+cfl/Function.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/cfl/Function.hpp
+test/Output.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/test/Output.hpp
+test/Index.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/test/Index.hpp
+test/Inline/iMain.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/test/Inline/iMain.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Output.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_cfl/Main.hpp
+functional
+-
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_cfl/Output.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_cfl/Src/Function.cpp
+cmath
+-
+functional
+-
+cfl/Function.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_cfl/Src/cfl/Function.hpp
+test_cfl/Main.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_cfl/Src/test_cfl/Main.hpp
+test/Main.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_cfl/Src/test/Main.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_cfl/Src/Main.cpp
+test_cfl/Main.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_cfl/Src/test_cfl/Main.hpp
+test_cfl/Output.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_cfl/Src/test_cfl/Output.hpp
+test/Output.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_cfl/Src/test/Output.hpp
+test/Main.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_cfl/Src/test/Main.hpp
+

@@ -1,0 +1,292 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Approx.hpp
+vector
+-
+cfl/Function.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Function.hpp
+cfl/Macros.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Macros.hpp
+cfl/Inline/iApprox.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iApprox.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Error.hpp
+exception
+-
+string
+-
+cfl/Macros.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Macros.hpp
+cfl/Inline/iError.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iError.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Fit.hpp
+vector
+-
+cfl/Function.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Function.hpp
+cfl/Inline/iFit.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iFit.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Function.hpp
+functional
+-
+limits
+-
+memory
+-
+cfl/Inline/iFunction.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iFunction.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/GaussRollback.hpp
+valarray
+-
+memory
+-
+Macros.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Macros.hpp
+cfl/Inline/iGaussRollback.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iGaussRollback.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Ind.hpp
+memory
+-
+valarray
+-
+cfl/Inline/iInd.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iInd.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iApprox.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iError.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iFit.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iFunction.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iGaussRollback.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iInd.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iInterp.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Interp.hpp
+vector
+-
+cfl/Function.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Function.hpp
+cfl/Inline/iInterp.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iInterp.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Macros.hpp
+assert.h
+-
+algorithm
+-
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Approx.hpp
+cfl/Approx.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/cfl/Approx.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Data.hpp
+cfl/Interp.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/cfl/Interp.hpp
+cfl/Fit.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/cfl/Fit.hpp
+vector
+-
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Fit.hpp
+cfl/Fit.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/cfl/Fit.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/GaussRollback.hpp
+cfl/GaussRollback.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/cfl/GaussRollback.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Ind.hpp
+cfl/Ind.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/cfl/Ind.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Index.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Inline/iMain.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Interp.hpp
+cfl/Interp.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/cfl/Interp.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Main.hpp
+iostream
+-
+fstream
+-
+iomanip
+-
+vector
+-
+valarray
+-
+cfl/Function.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/cfl/Function.hpp
+test/Output.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/test/Output.hpp
+test/Index.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/test/Index.hpp
+test/Inline/iMain.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/test/Inline/iMain.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Output.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/Approx.cpp
+cmath
+-
+iomanip
+-
+algorithm
+-
+exception
+-
+numeric
+-
+cfl/Function.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/cfl/Function.hpp
+test/Main.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/test/Main.hpp
+test/Approx.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/test/Approx.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/Data.cpp
+functional
+-
+test/Data.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/test/Data.hpp
+test/Main.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/test/Main.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/Fit.cpp
+cmath
+-
+numeric
+-
+cfl/Fit.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/cfl/Fit.hpp
+cfl/Error.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/cfl/Error.hpp
+test/Main.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/test/Main.hpp
+test/Fit.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/test/Fit.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/GaussRollback.cpp
+cmath
+-
+string
+-
+iomanip
+-
+chrono
+-
+test/Main.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/test/Main.hpp
+test/GaussRollback.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/test/GaussRollback.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/Ind.cpp
+cmath
+-
+chrono
+-
+string
+-
+vector
+-
+gsl/gsl_math.h
+-
+cfl/Function.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/cfl/Function.hpp
+cfl/GaussRollback.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/cfl/GaussRollback.hpp
+cfl/Ind.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/cfl/Ind.hpp
+test/Main.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/test/Main.hpp
+test/GaussRollback.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/test/GaussRollback.hpp
+test/Ind.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/test/Ind.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/Interp.cpp
+iomanip
+-
+test/Main.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/test/Main.hpp
+test/Interp.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/test/Interp.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/Main.cpp
+algorithm
+-
+numeric
+-
+functional
+-
+random
+-
+cfl/Macros.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/cfl/Macros.hpp
+test/Output.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/test/Output.hpp
+test/Main.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Src/test/Main.hpp
+
+/usr/local/include/gsl/gsl_inline.h
+
+/usr/local/include/gsl/gsl_machine.h
+limits.h
+-
+float.h
+-
+
+/usr/local/include/gsl/gsl_math.h
+math.h
+-
+gsl/gsl_sys.h
+-
+gsl/gsl_inline.h
+-
+gsl/gsl_machine.h
+-
+gsl/gsl_precision.h
+-
+gsl/gsl_nan.h
+-
+gsl/gsl_pow_int.h
+-
+gsl/gsl_minmax.h
+-
+
+/usr/local/include/gsl/gsl_minmax.h
+gsl/gsl_inline.h
+-
+
+/usr/local/include/gsl/gsl_nan.h
+
+/usr/local/include/gsl/gsl_pow_int.h
+gsl/gsl_inline.h
+-
+
+/usr/local/include/gsl/gsl_precision.h
+gsl/gsl_types.h
+-
+
+/usr/local/include/gsl/gsl_sys.h
+
+/usr/local/include/gsl/gsl_types.h
+

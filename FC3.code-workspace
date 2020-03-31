@@ -1,13 +1,7 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"cmake.sourceDirectory": "${workspaceFolder}/CPP",
-		"files.associations": {
-			"memory": "cpp"
-		}
-	}
+    "folders": [
+        {
+            "path": "FC3 workspace"
+        }
+    ]
 }

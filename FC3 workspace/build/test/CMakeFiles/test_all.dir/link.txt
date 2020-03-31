@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtest_all.a  CMakeFiles/test_all.dir/Src/Approx.cpp.o CMakeFiles/test_all.dir/Src/Data.cpp.o CMakeFiles/test_all.dir/Src/Fit.cpp.o CMakeFiles/test_all.dir/Src/GaussRollback.cpp.o CMakeFiles/test_all.dir/Src/Ind.cpp.o CMakeFiles/test_all.dir/Src/Interp.cpp.o CMakeFiles/test_all.dir/Src/Main.cpp.o
+/usr/bin/ranlib libtest_all.a
