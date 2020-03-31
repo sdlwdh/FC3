@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/CMakeFiles" "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/CMakeFiles/progress.marks"
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/CMakeFiles" "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/test_set2/CMakeFiles/progress.marks"
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f CMakeFiles/Makefile2 test_set2/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f CMakeFiles/Makefile2 test_set2/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,109 +97,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f CMakeFiles/Makefile2 test_set2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f CMakeFiles/Makefile2 test_set2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named cfl
+# Convenience name for target.
+test_set2/CMakeFiles/test_set2.dir/rule:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f CMakeFiles/Makefile2 test_set2/CMakeFiles/test_set2.dir/rule
+.PHONY : test_set2/CMakeFiles/test_set2.dir/rule
 
-# Build rule for target.
-cfl: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cfl
-.PHONY : cfl
+# Convenience name for target.
+test_set2: test_set2/CMakeFiles/test_set2.dir/rule
 
-# fast build rule for target.
-cfl/fast:
-	$(MAKE) -f cfl/CMakeFiles/cfl.dir/build.make cfl/CMakeFiles/cfl.dir/build
-.PHONY : cfl/fast
-
-#=============================================================================
-# Target rules for targets named test_all
-
-# Build rule for target.
-test_all: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test_all
-.PHONY : test_all
-
-# fast build rule for target.
-test_all/fast:
-	$(MAKE) -f test/CMakeFiles/test_all.dir/build.make test/CMakeFiles/test_all.dir/build
-.PHONY : test_all/fast
-
-#=============================================================================
-# Target rules for targets named test_cfl
-
-# Build rule for target.
-test_cfl: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test_cfl
-.PHONY : test_cfl
-
-# fast build rule for target.
-test_cfl/fast:
-	$(MAKE) -f test_cfl/CMakeFiles/test_cfl.dir/build.make test_cfl/CMakeFiles/test_cfl.dir/build
-.PHONY : test_cfl/fast
-
-#=============================================================================
-# Target rules for targets named prb
-
-# Build rule for target.
-prb: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 prb
-.PHONY : prb
-
-# fast build rule for target.
-prb/fast:
-	$(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/build
-.PHONY : prb/fast
-
-#=============================================================================
-# Target rules for targets named test_prb
-
-# Build rule for target.
-test_prb: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test_prb
-.PHONY : test_prb
-
-# fast build rule for target.
-test_prb/fast:
-	$(MAKE) -f test_prb/CMakeFiles/test_prb.dir/build.make test_prb/CMakeFiles/test_prb.dir/build
-.PHONY : test_prb/fast
-
-#=============================================================================
-# Target rules for targets named test_set1
-
-# Build rule for target.
-test_set1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test_set1
-.PHONY : test_set1
-
-# fast build rule for target.
-test_set1/fast:
-	$(MAKE) -f test_set1/CMakeFiles/test_set1.dir/build.make test_set1/CMakeFiles/test_set1.dir/build
-.PHONY : test_set1/fast
-
-#=============================================================================
-# Target rules for targets named test_set2
-
-# Build rule for target.
-test_set2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test_set2
 .PHONY : test_set2
 
 # fast build rule for target.
 test_set2/fast:
-	$(MAKE) -f test_set2/CMakeFiles/test_set2.dir/build.make test_set2/CMakeFiles/test_set2.dir/build
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f test_set2/CMakeFiles/test_set2.dir/build.make test_set2/CMakeFiles/test_set2.dir/build
 .PHONY : test_set2/fast
+
+Src/Main.o: Src/Main.cpp.o
+
+.PHONY : Src/Main.o
+
+# target to build an object file
+Src/Main.cpp.o:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f test_set2/CMakeFiles/test_set2.dir/build.make test_set2/CMakeFiles/test_set2.dir/Src/Main.cpp.o
+.PHONY : Src/Main.cpp.o
+
+Src/Main.i: Src/Main.cpp.i
+
+.PHONY : Src/Main.i
+
+# target to preprocess a source file
+Src/Main.cpp.i:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f test_set2/CMakeFiles/test_set2.dir/build.make test_set2/CMakeFiles/test_set2.dir/Src/Main.cpp.i
+.PHONY : Src/Main.cpp.i
+
+Src/Main.s: Src/Main.cpp.s
+
+.PHONY : Src/Main.s
+
+# target to generate assembly for a file
+Src/Main.cpp.s:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f test_set2/CMakeFiles/test_set2.dir/build.make test_set2/CMakeFiles/test_set2.dir/Src/Main.cpp.s
+.PHONY : Src/Main.cpp.s
 
 # Help Target
 help:
@@ -209,13 +160,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... cfl"
-	@echo "... test_all"
-	@echo "... test_cfl"
-	@echo "... prb"
-	@echo "... test_prb"
-	@echo "... test_set1"
 	@echo "... test_set2"
+	@echo "... Src/Main.o"
+	@echo "... Src/Main.i"
+	@echo "... Src/Main.s"
 .PHONY : help
 
 
@@ -227,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

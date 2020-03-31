@@ -18,3 +18,6 @@
 /Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/test_set1/CMakeFiles/rebuild_cache.dir
 /Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/test_set1/CMakeFiles/edit_cache.dir
 /Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/test_set1/CMakeFiles/test_set1.dir
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/test_set2/CMakeFiles/rebuild_cache.dir
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/test_set2/CMakeFiles/edit_cache.dir
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/test_set2/CMakeFiles/test_set2.dir
