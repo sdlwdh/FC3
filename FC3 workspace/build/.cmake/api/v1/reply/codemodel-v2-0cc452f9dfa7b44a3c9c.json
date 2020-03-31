@@ -13,7 +13,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -105,6 +106,20 @@
 					[
 						5
 					]
+				},
+				{
+					"build" : "test_set2",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test_set2",
+					"targetIndexes" : 
+					[
+						6
+					]
 				}
 			],
 			"name" : "Debug",
@@ -119,7 +134,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					],
 					"name" : "FC-III",
 					"targetIndexes" : 
@@ -129,7 +145,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -175,6 +192,13 @@
 					"id" : "test_set1::@4681aeff704d28422404",
 					"jsonFile" : "target-test_set1-Debug-3b74b98aae0d94915e33.json",
 					"name" : "test_set1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "test_set2::@0457408c344307dcb4ff",
+					"jsonFile" : "target-test_set2-Debug-9fcb9b801b64052a35a2.json",
+					"name" : "test_set2",
 					"projectIndex" : 0
 				}
 			]
