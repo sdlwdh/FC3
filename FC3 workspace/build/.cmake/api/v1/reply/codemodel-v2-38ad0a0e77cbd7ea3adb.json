@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "cfl",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cfl",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "test_cfl",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test_cfl",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "prb",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "prb",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "test_prb",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test_prb",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "test_set1",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test_set1",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "test_set2",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test_set2",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "test_set3",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test_set3",
+					"targetIndexes" : 
+					[
+						7
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "FC-III",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "cfl::@c59ef630bfd1bbfb2039",
+					"jsonFile" : "target-cfl-Release-2443b04619ad23fbfb0a.json",
+					"name" : "cfl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "prb::@6a24f3726a38e7a1928f",
+					"jsonFile" : "target-prb-Release-79a3335c7aa259e7cc53.json",
+					"name" : "prb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_all::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_all-Release-fc5868e80cc42015aff5.json",
+					"name" : "test_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_cfl::@dde391362b9ac9db4255",
+					"jsonFile" : "target-test_cfl-Release-f1b9ce8d6d3bd57f61d6.json",
+					"name" : "test_cfl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "test_prb::@9960d2e765fb95594f0c",
+					"jsonFile" : "target-test_prb-Release-bfc85761b4b67f2c5cab.json",
+					"name" : "test_prb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "test_set1::@4681aeff704d28422404",
+					"jsonFile" : "target-test_set1-Release-1062dc0cd7b3923478f7.json",
+					"name" : "test_set1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "test_set2::@0457408c344307dcb4ff",
+					"jsonFile" : "target-test_set2-Release-ad3e2e168feb9dc5b681.json",
+					"name" : "test_set2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "test_set3::@958562a05be0c03c4c6d",
+					"jsonFile" : "target-test_set3-Release-0dbb209f99d340600968.json",
+					"name" : "test_set3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build",
+		"source" : "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -16,6 +16,14 @@ cfl/Macros.hpp
 cfl/Inline/iError.hpp
 /Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iError.hpp
 
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Fit.hpp
+vector
+-
+cfl/Function.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Function.hpp
+cfl/Inline/iFit.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iFit.hpp
+
 /Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Function.hpp
 functional
 -
@@ -27,6 +35,8 @@ cfl/Inline/iFunction.hpp
 /Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iFunction.hpp
 
 /Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iError.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iFit.hpp
 
 /Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iFunction.hpp
 
@@ -46,33 +56,17 @@ assert.h
 algorithm
 -
 
-/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Interp.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Data.hpp
 cfl/Interp.hpp
 /Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/cfl/Interp.hpp
+cfl/Fit.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/cfl/Fit.hpp
 
-/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Src/Interp.cpp
-prb/Interp.hpp
-/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Src/prb/Interp.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Src/Data.cpp
+prb/Data.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Src/prb/Data.hpp
 cfl/Error.hpp
 /Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Src/cfl/Error.hpp
-gsl/gsl_spline.h
+math.h
 -
-
-/usr/local/include/gsl/gsl_inline.h
-
-/usr/local/include/gsl/gsl_interp.h
-stdlib.h
--
-gsl/gsl_inline.h
--
-gsl/gsl_types.h
--
-
-/usr/local/include/gsl/gsl_spline.h
-stdlib.h
--
-gsl/gsl_interp.h
--
-
-/usr/local/include/gsl/gsl_types.h
 
