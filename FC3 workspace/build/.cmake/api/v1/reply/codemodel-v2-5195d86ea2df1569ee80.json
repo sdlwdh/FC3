@@ -14,7 +14,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -120,9 +121,23 @@
 					[
 						6
 					]
+				},
+				{
+					"build" : "test_set4",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test_set4",
+					"targetIndexes" : 
+					[
+						7
+					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -135,7 +150,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					],
 					"name" : "FC-III",
 					"targetIndexes" : 
@@ -146,7 +162,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -155,50 +172,57 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "cfl::@c59ef630bfd1bbfb2039",
-					"jsonFile" : "target-cfl-Debug-ef0ecbcde4d8fa22d4fd.json",
+					"jsonFile" : "target-cfl-Release-2443b04619ad23fbfb0a.json",
 					"name" : "cfl",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "prb::@6a24f3726a38e7a1928f",
-					"jsonFile" : "target-prb-Debug-9d009ecc502e74351145.json",
+					"jsonFile" : "target-prb-Release-169e1acb541cced3b7cd.json",
 					"name" : "prb",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "test_all::@36f028580bb02cc8272a",
-					"jsonFile" : "target-test_all-Debug-00a9cfa77d9a06b6663d.json",
+					"jsonFile" : "target-test_all-Release-fc5868e80cc42015aff5.json",
 					"name" : "test_all",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "test_cfl::@dde391362b9ac9db4255",
-					"jsonFile" : "target-test_cfl-Debug-c3c3fd07e46065a00519.json",
+					"jsonFile" : "target-test_cfl-Release-f1b9ce8d6d3bd57f61d6.json",
 					"name" : "test_cfl",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "test_prb::@9960d2e765fb95594f0c",
-					"jsonFile" : "target-test_prb-Debug-2c5c1a02491441b7f308.json",
+					"jsonFile" : "target-test_prb-Release-bfc85761b4b67f2c5cab.json",
 					"name" : "test_prb",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "test_set1::@4681aeff704d28422404",
-					"jsonFile" : "target-test_set1-Debug-3b74b98aae0d94915e33.json",
+					"jsonFile" : "target-test_set1-Release-1062dc0cd7b3923478f7.json",
 					"name" : "test_set1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 7,
 					"id" : "test_set2::@0457408c344307dcb4ff",
-					"jsonFile" : "target-test_set2-Debug-9fcb9b801b64052a35a2.json",
+					"jsonFile" : "target-test_set2-Release-ad3e2e168feb9dc5b681.json",
 					"name" : "test_set2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "test_set4::@7760c70b6896c5bd9cee",
+					"jsonFile" : "target-test_set4-Release-68fe3fa18ef8f01d74eb.json",
+					"name" : "test_set4",
 					"projectIndex" : 0
 				}
 			]

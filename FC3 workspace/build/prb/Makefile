@@ -125,6 +125,33 @@ prb/fast:
 	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/build
 .PHONY : prb/fast
 
+Src/Fit.o: Src/Fit.cpp.o
+
+.PHONY : Src/Fit.o
+
+# target to build an object file
+Src/Fit.cpp.o:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Fit.cpp.o
+.PHONY : Src/Fit.cpp.o
+
+Src/Fit.i: Src/Fit.cpp.i
+
+.PHONY : Src/Fit.i
+
+# target to preprocess a source file
+Src/Fit.cpp.i:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Fit.cpp.i
+.PHONY : Src/Fit.cpp.i
+
+Src/Fit.s: Src/Fit.cpp.s
+
+.PHONY : Src/Fit.s
+
+# target to generate assembly for a file
+Src/Fit.cpp.s:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Fit.cpp.s
+.PHONY : Src/Fit.cpp.s
+
 Src/Interp.o: Src/Interp.cpp.o
 
 .PHONY : Src/Interp.o
@@ -161,6 +188,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... prb"
+	@echo "... Src/Fit.o"
+	@echo "... Src/Fit.i"
+	@echo "... Src/Fit.s"
 	@echo "... Src/Interp.o"
 	@echo "... Src/Interp.i"
 	@echo "... Src/Interp.s"
