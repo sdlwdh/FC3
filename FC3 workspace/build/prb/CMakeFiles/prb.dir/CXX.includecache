@@ -37,6 +37,13 @@ cfl/Inline/iFunction.hpp
 /Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iError.hpp
 
 /Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iFit.hpp
+<<<<<<< HEAD
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iFunction.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iInterp.hpp
+=======
+>>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276
 
 /Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iFunction.hpp
 
@@ -46,6 +53,22 @@ assert.h
 algorithm
 -
 
+<<<<<<< HEAD
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Data.hpp
+cfl/Interp.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/cfl/Interp.hpp
+cfl/Fit.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/cfl/Fit.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Src/Data.cpp
+prb/Data.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Src/prb/Data.hpp
+cfl/Error.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Src/cfl/Error.hpp
+math.h
+-
+
+=======
 /Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Fit.hpp
 cfl/Fit.hpp
 /Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/cfl/Fit.hpp
@@ -726,3 +749,4 @@ gsl/gsl_check_range.h
 gsl/gsl_block_ushort.h
 -
 
+>>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276

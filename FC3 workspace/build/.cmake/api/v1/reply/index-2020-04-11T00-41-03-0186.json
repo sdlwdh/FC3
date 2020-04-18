@@ -1,0 +1,95 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"name" : "Unix Makefiles"
+		},
+		"paths" : 
+		{
+			"cmake" : "/usr/local/Cellar/cmake/3.16.5/bin/cmake",
+			"cpack" : "/usr/local/Cellar/cmake/3.16.5/bin/cpack",
+			"ctest" : "/usr/local/Cellar/cmake/3.16.5/bin/ctest",
+			"root" : "/usr/local/Cellar/cmake/3.16.5/share/cmake"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 3,
+			"minor" : 16,
+			"patch" : 5,
+			"string" : "3.16.5",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+<<<<<<< HEAD:FC3 workspace/build/.cmake/api/v1/reply/index-2020-04-11T00-41-03-0186.json
+			"jsonFile" : "codemodel-v2-38ad0a0e77cbd7ea3adb.json",
+=======
+			"jsonFile" : "codemodel-v2-5195d86ea2df1569ee80.json",
+>>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276:FC3 workspace/build/.cmake/api/v1/reply/index-2020-04-11T20-52-10-0481.json
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "cache-v2-cf287e8896a95f57f9a5.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		}
+	],
+	"reply" : 
+	{
+		"client-vscode" : 
+		{
+			"query.json" : 
+			{
+				"requests" : 
+				[
+					{
+						"kind" : "cache",
+						"version" : 2
+					},
+					{
+						"kind" : "codemodel",
+						"version" : 2
+					}
+				],
+				"responses" : 
+				[
+					{
+						"jsonFile" : "cache-v2-cf287e8896a95f57f9a5.json",
+						"kind" : "cache",
+						"version" : 
+						{
+							"major" : 2,
+							"minor" : 0
+						}
+					},
+					{
+<<<<<<< HEAD:FC3 workspace/build/.cmake/api/v1/reply/index-2020-04-11T00-41-03-0186.json
+						"jsonFile" : "codemodel-v2-38ad0a0e77cbd7ea3adb.json",
+=======
+						"jsonFile" : "codemodel-v2-5195d86ea2df1569ee80.json",
+>>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276:FC3 workspace/build/.cmake/api/v1/reply/index-2020-04-11T20-52-10-0481.json
+						"kind" : "codemodel",
+						"version" : 
+						{
+							"major" : 2,
+							"minor" : 0
+						}
+					}
+				]
+			}
+		}
+	}
+}

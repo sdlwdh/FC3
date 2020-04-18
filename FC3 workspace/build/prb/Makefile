@@ -125,6 +125,34 @@ prb/fast:
 	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/build
 .PHONY : prb/fast
 
+<<<<<<< HEAD
+Src/Data.o: Src/Data.cpp.o
+
+.PHONY : Src/Data.o
+
+# target to build an object file
+Src/Data.cpp.o:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Data.cpp.o
+.PHONY : Src/Data.cpp.o
+
+Src/Data.i: Src/Data.cpp.i
+
+.PHONY : Src/Data.i
+
+# target to preprocess a source file
+Src/Data.cpp.i:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Data.cpp.i
+.PHONY : Src/Data.cpp.i
+
+Src/Data.s: Src/Data.cpp.s
+
+.PHONY : Src/Data.s
+
+# target to generate assembly for a file
+Src/Data.cpp.s:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Data.cpp.s
+.PHONY : Src/Data.cpp.s
+=======
 Src/Fit.o: Src/Fit.cpp.o
 
 .PHONY : Src/Fit.o
@@ -151,6 +179,7 @@ Src/Fit.s: Src/Fit.cpp.s
 Src/Fit.cpp.s:
 	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Fit.cpp.s
 .PHONY : Src/Fit.cpp.s
+>>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276
 
 Src/Interp.o: Src/Interp.cpp.o
 
@@ -188,9 +217,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... prb"
+<<<<<<< HEAD
+	@echo "... Src/Data.o"
+	@echo "... Src/Data.i"
+	@echo "... Src/Data.s"
+=======
 	@echo "... Src/Fit.o"
 	@echo "... Src/Fit.i"
 	@echo "... Src/Fit.s"
+>>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276
 	@echo "... Src/Interp.o"
 	@echo "... Src/Interp.i"
 	@echo "... Src/Interp.s"

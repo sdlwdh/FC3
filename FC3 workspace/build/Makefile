@@ -202,6 +202,19 @@ test_set2/fast:
 .PHONY : test_set2/fast
 
 #=============================================================================
+<<<<<<< HEAD
+# Target rules for targets named test_set3
+
+# Build rule for target.
+test_set3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_set3
+.PHONY : test_set3
+
+# fast build rule for target.
+test_set3/fast:
+	$(MAKE) -f test_set3/CMakeFiles/test_set3.dir/build.make test_set3/CMakeFiles/test_set3.dir/build
+.PHONY : test_set3/fast
+=======
 # Target rules for targets named test_set4
 
 # Build rule for target.
@@ -213,6 +226,7 @@ test_set4: cmake_check_build_system
 test_set4/fast:
 	$(MAKE) -f test_set4/CMakeFiles/test_set4.dir/build.make test_set4/CMakeFiles/test_set4.dir/build
 .PHONY : test_set4/fast
+>>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276
 
 # Help Target
 help:
@@ -229,7 +243,11 @@ help:
 	@echo "... test_prb"
 	@echo "... test_set1"
 	@echo "... test_set2"
+<<<<<<< HEAD
+	@echo "... test_set3"
+=======
 	@echo "... test_set4"
+>>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276
 .PHONY : help
 
 

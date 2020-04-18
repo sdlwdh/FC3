@@ -69,7 +69,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
+  include("/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/test_set3/cmake_install.cmake")
+=======
   include("/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/test_set4/cmake_install.cmake")
+>>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

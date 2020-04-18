@@ -123,14 +123,22 @@
 					]
 				},
 				{
+<<<<<<< HEAD:FC3 workspace/build/.cmake/api/v1/reply/codemodel-v2-38ad0a0e77cbd7ea3adb.json
+					"build" : "test_set3",
+=======
 					"build" : "test_set4",
+>>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276:FC3 workspace/build/.cmake/api/v1/reply/codemodel-v2-5195d86ea2df1569ee80.json
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
+<<<<<<< HEAD:FC3 workspace/build/.cmake/api/v1/reply/codemodel-v2-38ad0a0e77cbd7ea3adb.json
+					"source" : "test_set3",
+=======
 					"source" : "test_set4",
+>>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276:FC3 workspace/build/.cmake/api/v1/reply/codemodel-v2-5195d86ea2df1569ee80.json
 					"targetIndexes" : 
 					[
 						7
@@ -179,7 +187,11 @@
 				{
 					"directoryIndex" : 4,
 					"id" : "prb::@6a24f3726a38e7a1928f",
+<<<<<<< HEAD:FC3 workspace/build/.cmake/api/v1/reply/codemodel-v2-38ad0a0e77cbd7ea3adb.json
+					"jsonFile" : "target-prb-Release-79a3335c7aa259e7cc53.json",
+=======
 					"jsonFile" : "target-prb-Release-169e1acb541cced3b7cd.json",
+>>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276:FC3 workspace/build/.cmake/api/v1/reply/codemodel-v2-5195d86ea2df1569ee80.json
 					"name" : "prb",
 					"projectIndex" : 0
 				},
@@ -220,9 +232,15 @@
 				},
 				{
 					"directoryIndex" : 8,
+<<<<<<< HEAD:FC3 workspace/build/.cmake/api/v1/reply/codemodel-v2-38ad0a0e77cbd7ea3adb.json
+					"id" : "test_set3::@958562a05be0c03c4c6d",
+					"jsonFile" : "target-test_set3-Release-0dbb209f99d340600968.json",
+					"name" : "test_set3",
+=======
 					"id" : "test_set4::@7760c70b6896c5bd9cee",
 					"jsonFile" : "target-test_set4-Release-68fe3fa18ef8f01d74eb.json",
 					"name" : "test_set4",
+>>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276:FC3 workspace/build/.cmake/api/v1/reply/codemodel-v2-5195d86ea2df1569ee80.json
 					"projectIndex" : 0
 				}
 			]

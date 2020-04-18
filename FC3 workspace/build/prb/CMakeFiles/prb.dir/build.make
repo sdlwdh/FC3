@@ -57,6 +57,20 @@ include prb/CMakeFiles/prb.dir/progress.make
 # Include the compile flags for this target's objects.
 include prb/CMakeFiles/prb.dir/flags.make
 
+<<<<<<< HEAD
+prb/CMakeFiles/prb.dir/Src/Data.cpp.o: prb/CMakeFiles/prb.dir/flags.make
+prb/CMakeFiles/prb.dir/Src/Data.cpp.o: /Users/sweetyyadav/Desktop/Mini\ 4/FC3/FC3\ workspace/CPP/prb/Src/Data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object prb/CMakeFiles/prb.dir/Src/Data.cpp.o"
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/prb" && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prb.dir/Src/Data.cpp.o -c "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Src/Data.cpp"
+
+prb/CMakeFiles/prb.dir/Src/Data.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prb.dir/Src/Data.cpp.i"
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/prb" && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Src/Data.cpp" > CMakeFiles/prb.dir/Src/Data.cpp.i
+
+prb/CMakeFiles/prb.dir/Src/Data.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prb.dir/Src/Data.cpp.s"
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/prb" && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Src/Data.cpp" -o CMakeFiles/prb.dir/Src/Data.cpp.s
+=======
 prb/CMakeFiles/prb.dir/Src/Fit.cpp.o: prb/CMakeFiles/prb.dir/flags.make
 prb/CMakeFiles/prb.dir/Src/Fit.cpp.o: /Users/sweetyyadav/Desktop/Mini\ 4/FC3/FC3\ workspace/CPP/prb/Src/Fit.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object prb/CMakeFiles/prb.dir/Src/Fit.cpp.o"
@@ -69,6 +83,7 @@ prb/CMakeFiles/prb.dir/Src/Fit.cpp.i: cmake_force
 prb/CMakeFiles/prb.dir/Src/Fit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prb.dir/Src/Fit.cpp.s"
 	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/prb" && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Src/Fit.cpp" -o CMakeFiles/prb.dir/Src/Fit.cpp.s
+>>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276
 
 prb/CMakeFiles/prb.dir/Src/Interp.cpp.o: prb/CMakeFiles/prb.dir/flags.make
 prb/CMakeFiles/prb.dir/Src/Interp.cpp.o: /Users/sweetyyadav/Desktop/Mini\ 4/FC3/FC3\ workspace/CPP/prb/Src/Interp.cpp
@@ -85,13 +100,21 @@ prb/CMakeFiles/prb.dir/Src/Interp.cpp.s: cmake_force
 
 # Object files for target prb
 prb_OBJECTS = \
+<<<<<<< HEAD
+"CMakeFiles/prb.dir/Src/Data.cpp.o" \
+=======
 "CMakeFiles/prb.dir/Src/Fit.cpp.o" \
+>>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276
 "CMakeFiles/prb.dir/Src/Interp.cpp.o"
 
 # External object files for target prb
 prb_EXTERNAL_OBJECTS =
 
+<<<<<<< HEAD
+prb/libprb.a: prb/CMakeFiles/prb.dir/Src/Data.cpp.o
+=======
 prb/libprb.a: prb/CMakeFiles/prb.dir/Src/Fit.cpp.o
+>>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276
 prb/libprb.a: prb/CMakeFiles/prb.dir/Src/Interp.cpp.o
 prb/libprb.a: prb/CMakeFiles/prb.dir/build.make
 prb/libprb.a: prb/CMakeFiles/prb.dir/link.txt

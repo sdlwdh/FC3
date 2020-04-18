@@ -1,2 +1,6 @@
+<<<<<<< HEAD
+/usr/bin/ar qc libprb.a  CMakeFiles/prb.dir/Src/Data.cpp.o CMakeFiles/prb.dir/Src/Interp.cpp.o
+=======
 /usr/bin/ar qc libprb.a  CMakeFiles/prb.dir/Src/Fit.cpp.o CMakeFiles/prb.dir/Src/Interp.cpp.o
+>>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276
 /usr/bin/ranlib libprb.a
