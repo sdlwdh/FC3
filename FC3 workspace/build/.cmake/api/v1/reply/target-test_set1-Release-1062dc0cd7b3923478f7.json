@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "test_prb/test_prb"
+			"path" : "test_set1/test_set1"
 		}
 	],
 	"backtrace" : 3,
@@ -18,7 +18,7 @@
 		"files" : 
 		[
 			"CMake/sets.cmake",
-			"test_prb/CMakeLists.txt",
+			"test_set1/CMakeLists.txt",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
@@ -83,7 +83,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-Wall -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14  "
+					"fragment" : "-Wall -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14  "
 				},
 				{
 					"fragment" : "-std=c++14"
@@ -103,13 +103,7 @@
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6
+				0
 			]
 		}
 	],
@@ -128,13 +122,13 @@
 			"id" : "prb::@6a24f3726a38e7a1928f"
 		}
 	],
-	"id" : "test_prb::@9960d2e765fb95594f0c",
+	"id" : "test_set1::@4681aeff704d28422404",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-Wall -g",
+				"fragment" : "-Wall -O3 -DNDEBUG",
 				"role" : "flags"
 			},
 			{
@@ -172,12 +166,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "test_prb",
-	"nameOnDisk" : "test_prb",
+	"name" : "test_set1",
+	"nameOnDisk" : "test_set1",
 	"paths" : 
 	{
-		"build" : "test_prb",
-		"source" : "test_prb"
+		"build" : "test_set1",
+		"source" : "test_set1"
 	},
 	"sourceGroups" : 
 	[
@@ -185,21 +179,14 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6
+				0
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				7,
-				8
+				1
 			]
 		}
 	],
@@ -208,53 +195,12 @@
 		{
 			"backtrace" : 3,
 			"compileGroupIndex" : 0,
-			"path" : "test_prb/Src/Approx.cpp",
+			"path" : "test_set1/Src/Main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 3,
-			"compileGroupIndex" : 0,
-			"path" : "test_prb/Src/Data.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 3,
-			"compileGroupIndex" : 0,
-			"path" : "test_prb/Src/Fit.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 3,
-			"compileGroupIndex" : 0,
-			"path" : "test_prb/Src/GaussRollback.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 3,
-			"compileGroupIndex" : 0,
-			"path" : "test_prb/Src/Ind.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 3,
-			"compileGroupIndex" : 0,
-			"path" : "test_prb/Src/Interp.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 3,
-			"compileGroupIndex" : 0,
-			"path" : "test_prb/Src/Main.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 3,
-			"path" : "test_prb/Main.hpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 3,
-			"path" : "test_prb/Output.hpp",
+			"path" : "test_set1/Output.hpp",
 			"sourceGroupIndex" : 1
 		}
 	],

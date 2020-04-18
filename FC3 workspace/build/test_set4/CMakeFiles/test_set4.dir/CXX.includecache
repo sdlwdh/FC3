@@ -1,0 +1,76 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Fit.hpp
+vector
+-
+cfl/Function.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Function.hpp
+cfl/Inline/iFit.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iFit.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Function.hpp
+functional
+-
+limits
+-
+memory
+-
+cfl/Inline/iFunction.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iFunction.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iFit.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iFunction.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Fit.hpp
+cfl/Fit.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/cfl/Fit.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Fit.hpp
+cfl/Fit.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/cfl/Fit.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Index.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Inline/iMain.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Main.hpp
+iostream
+-
+fstream
+-
+iomanip
+-
+vector
+-
+valarray
+-
+cfl/Function.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/cfl/Function.hpp
+test/Output.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/test/Output.hpp
+test/Index.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/test/Index.hpp
+test/Inline/iMain.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/test/Inline/iMain.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test/Output.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_set4/Output.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_set4/Src/Main.cpp
+test/Main.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_set4/Src/test/Main.hpp
+test/Fit.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_set4/Src/test/Fit.hpp
+prb/Fit.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_set4/Src/prb/Fit.hpp
+test_set4/Output.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_set4/Src/test_set4/Output.hpp
+
