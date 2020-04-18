@@ -42,8 +42,13 @@ add_subdirectory(test_prb)
 
 add_subdirectory(test_set1)
 add_subdirectory(test_set2)
+<<<<<<< HEAD
 add_subdirectory(test_set3)
 # add_subdirectory(test_set4)
+=======
+# add_subdirectory(test_set3)
+add_subdirectory(test_set4)
+>>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276
 # add_subdirectory(test_set5)
 # add_subdirectory(test_set6)
 # add_subdirectory(test_set7)

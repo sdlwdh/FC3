@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/CMakeFiles" "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/prb/CMakeFiles/progress.marks"
-	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f CMakeFiles/Makefile2 prb/all
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/CMakeFiles" "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/test_set4/CMakeFiles/progress.marks"
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f CMakeFiles/Makefile2 test_set4/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f CMakeFiles/Makefile2 prb/clean
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f CMakeFiles/Makefile2 test_set4/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,12 +97,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f CMakeFiles/Makefile2 prb/preinstall
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f CMakeFiles/Makefile2 test_set4/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f CMakeFiles/Makefile2 prb/preinstall
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f CMakeFiles/Makefile2 test_set4/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -111,102 +111,46 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-prb/CMakeFiles/prb.dir/rule:
-	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f CMakeFiles/Makefile2 prb/CMakeFiles/prb.dir/rule
-.PHONY : prb/CMakeFiles/prb.dir/rule
+test_set4/CMakeFiles/test_set4.dir/rule:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f CMakeFiles/Makefile2 test_set4/CMakeFiles/test_set4.dir/rule
+.PHONY : test_set4/CMakeFiles/test_set4.dir/rule
 
 # Convenience name for target.
-prb: prb/CMakeFiles/prb.dir/rule
+test_set4: test_set4/CMakeFiles/test_set4.dir/rule
 
-.PHONY : prb
+.PHONY : test_set4
 
 # fast build rule for target.
-prb/fast:
-	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/build
-.PHONY : prb/fast
+test_set4/fast:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f test_set4/CMakeFiles/test_set4.dir/build.make test_set4/CMakeFiles/test_set4.dir/build
+.PHONY : test_set4/fast
 
-<<<<<<< HEAD
-Src/Data.o: Src/Data.cpp.o
+Src/Main.o: Src/Main.cpp.o
 
-.PHONY : Src/Data.o
-
-# target to build an object file
-Src/Data.cpp.o:
-	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Data.cpp.o
-.PHONY : Src/Data.cpp.o
-
-Src/Data.i: Src/Data.cpp.i
-
-.PHONY : Src/Data.i
-
-# target to preprocess a source file
-Src/Data.cpp.i:
-	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Data.cpp.i
-.PHONY : Src/Data.cpp.i
-
-Src/Data.s: Src/Data.cpp.s
-
-.PHONY : Src/Data.s
-
-# target to generate assembly for a file
-Src/Data.cpp.s:
-	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Data.cpp.s
-.PHONY : Src/Data.cpp.s
-=======
-Src/Fit.o: Src/Fit.cpp.o
-
-.PHONY : Src/Fit.o
+.PHONY : Src/Main.o
 
 # target to build an object file
-Src/Fit.cpp.o:
-	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Fit.cpp.o
-.PHONY : Src/Fit.cpp.o
+Src/Main.cpp.o:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f test_set4/CMakeFiles/test_set4.dir/build.make test_set4/CMakeFiles/test_set4.dir/Src/Main.cpp.o
+.PHONY : Src/Main.cpp.o
 
-Src/Fit.i: Src/Fit.cpp.i
+Src/Main.i: Src/Main.cpp.i
 
-.PHONY : Src/Fit.i
-
-# target to preprocess a source file
-Src/Fit.cpp.i:
-	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Fit.cpp.i
-.PHONY : Src/Fit.cpp.i
-
-Src/Fit.s: Src/Fit.cpp.s
-
-.PHONY : Src/Fit.s
-
-# target to generate assembly for a file
-Src/Fit.cpp.s:
-	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Fit.cpp.s
-.PHONY : Src/Fit.cpp.s
->>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276
-
-Src/Interp.o: Src/Interp.cpp.o
-
-.PHONY : Src/Interp.o
-
-# target to build an object file
-Src/Interp.cpp.o:
-	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Interp.cpp.o
-.PHONY : Src/Interp.cpp.o
-
-Src/Interp.i: Src/Interp.cpp.i
-
-.PHONY : Src/Interp.i
+.PHONY : Src/Main.i
 
 # target to preprocess a source file
-Src/Interp.cpp.i:
-	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Interp.cpp.i
-.PHONY : Src/Interp.cpp.i
+Src/Main.cpp.i:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f test_set4/CMakeFiles/test_set4.dir/build.make test_set4/CMakeFiles/test_set4.dir/Src/Main.cpp.i
+.PHONY : Src/Main.cpp.i
 
-Src/Interp.s: Src/Interp.cpp.s
+Src/Main.s: Src/Main.cpp.s
 
-.PHONY : Src/Interp.s
+.PHONY : Src/Main.s
 
 # target to generate assembly for a file
-Src/Interp.cpp.s:
-	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Interp.cpp.s
-.PHONY : Src/Interp.cpp.s
+Src/Main.cpp.s:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f test_set4/CMakeFiles/test_set4.dir/build.make test_set4/CMakeFiles/test_set4.dir/Src/Main.cpp.s
+.PHONY : Src/Main.cpp.s
 
 # Help Target
 help:
@@ -216,19 +160,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... prb"
-<<<<<<< HEAD
-	@echo "... Src/Data.o"
-	@echo "... Src/Data.i"
-	@echo "... Src/Data.s"
-=======
-	@echo "... Src/Fit.o"
-	@echo "... Src/Fit.i"
-	@echo "... Src/Fit.s"
->>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276
-	@echo "... Src/Interp.o"
-	@echo "... Src/Interp.i"
-	@echo "... Src/Interp.s"
+	@echo "... test_set4"
+	@echo "... Src/Main.o"
+	@echo "... Src/Main.i"
+	@echo "... Src/Main.s"
 .PHONY : help
 
 
