@@ -18,11 +18,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_prb/CMakeLists.txt"
   "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_set1/CMakeLists.txt"
   "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_set2/CMakeLists.txt"
-<<<<<<< HEAD
   "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_set3/CMakeLists.txt"
-=======
   "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_set4/CMakeLists.txt"
->>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276
+  "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_set5/CMakeLists.txt"
   "CMakeFiles/3.16.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.5/CMakeSystem.cmake"
   "/usr/local/Cellar/cmake/3.16.5/share/cmake/Modules/CMakeCXXInformation.cmake"
@@ -66,11 +64,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "test_prb/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test_set1/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test_set2/CMakeFiles/CMakeDirectoryInformation.cmake"
-<<<<<<< HEAD
   "test_set3/CMakeFiles/CMakeDirectoryInformation.cmake"
-=======
   "test_set4/CMakeFiles/CMakeDirectoryInformation.cmake"
->>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276
+  "test_set5/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -82,9 +78,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "test_prb/CMakeFiles/test_prb.dir/DependInfo.cmake"
   "test_set1/CMakeFiles/test_set1.dir/DependInfo.cmake"
   "test_set2/CMakeFiles/test_set2.dir/DependInfo.cmake"
-<<<<<<< HEAD
   "test_set3/CMakeFiles/test_set3.dir/DependInfo.cmake"
-=======
   "test_set4/CMakeFiles/test_set4.dir/DependInfo.cmake"
->>>>>>> a274ddac3e249e2c97e3abb2b0378b249bd7c276
+  "test_set5/CMakeFiles/test_set5.dir/DependInfo.cmake"
   )

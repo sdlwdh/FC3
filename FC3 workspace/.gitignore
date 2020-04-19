@@ -1,0 +1,15 @@
+build/*
+.vscode/
+*.log
+*.out
+*.gz
+*.aux
+*Output.hpp
+*.hpp~
+*.*~
+*.tex#
+*.pdf
+*.nav
+*.snm
+*.vrb
+*.toc
