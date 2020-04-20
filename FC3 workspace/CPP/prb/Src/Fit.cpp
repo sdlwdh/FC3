@@ -48,7 +48,7 @@ class LinearFit : public cfl::IFit
                 gsl_vector_set(y.get(), i, rVal[i]);
             }
             
-            gsl_multifit_linear_workspace *work = gsl_multifit_linear_alloc (rArg.size(), _basisF.size());
+            gsl_multifit_linear_workspace *work = gsl_multifit_linear_alloc(rArg.size(), _basisF.size());
 
             if(weights)
             {
@@ -259,12 +259,10 @@ class BSpline_Fit : public cfl::IFit
 
 cfl::Fit prb::NFit::bspline(unsigned iOrder, const std::vector<double> &rBreakpoints)
 {
-    std::cout<<"bspline 1";
     return Fit(new BSpline_Fit(iOrder, rBreakpoints));
 }
 
 cfl::Fit prb::NFit::bspline(unsigned iOrder, double dL, double dR, unsigned iBreakpoints)
 {
-    std::cout <<"bspline 2";
     return Fit( new BSpline_Fit(iOrder, dL, dR, iBreakpoints));
 }
