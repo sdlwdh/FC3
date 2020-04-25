@@ -266,6 +266,19 @@ test_set7/fast:
 	$(MAKE) -f test_set7/CMakeFiles/test_set7.dir/build.make test_set7/CMakeFiles/test_set7.dir/build
 .PHONY : test_set7/fast
 
+#=============================================================================
+# Target rules for targets named test_set8
+
+# Build rule for target.
+test_set8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_set8
+.PHONY : test_set8
+
+# fast build rule for target.
+test_set8/fast:
+	$(MAKE) -f test_set8/CMakeFiles/test_set8.dir/build.make test_set8/CMakeFiles/test_set8.dir/build
+.PHONY : test_set8/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -286,6 +299,7 @@ help:
 	@echo "... test_set5"
 	@echo "... test_set6"
 	@echo "... test_set7"
+	@echo "... test_set8"
 .PHONY : help
 
 
