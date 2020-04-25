@@ -69,29 +69,30 @@ class Implicit : public cfl::IGaussRollback
             PRECONDITION(rValues.size() == _N);
             std::valarray<double> vals(_N);
 
-            std::vector<double> diag(_N-2, 1.+2*_q);
+            std::vector<double> diag(_N, 1.+2*_q);
+            diag[0] = 1;
+            diag[_N-1] = 1;
             gsl_vector_const_view diagView = gsl_vector_const_view_array(&diag.front(), diag.size());
 
-            std::vector<double> e(_N-3, -_q);
+            std::vector<double> e(_N-1, -_q);
+            e[0] = 0;
             gsl_vector_const_view eView = gsl_vector_const_view_array(&e.front(), e.size());
-            std::vector<double> f(_N-3, -_q);
+            std::vector<double> f(_N-1, -_q);
+            f[_N-2] = 0;
             gsl_vector_const_view fView = gsl_vector_const_view_array(&f.front(), f.size());
 
-            std::unique_ptr<gsl_vector, decltype(&gsl_vector_free)> X(gsl_vector_alloc(_N-2), &gsl_vector_free);
-
-            gsl_vector_const_view b  = gsl_vector_const_view_array(std::begin(rValues)+1, rValues.size()-2);
-
+            std::unique_ptr<gsl_vector, decltype(&gsl_vector_free)> X(gsl_vector_alloc(_N), &gsl_vector_free);
             for(auto m = 0; m < _M; m++)
             {
-                vals[0] = rValues[0];
+                gsl_vector_const_view b = gsl_vector_const_view_array(std::begin(rValues), rValues.size());
                 gsl_linalg_solve_tridiag(&diagView.vector, &eView.vector, &fView.vector, &b.vector, X.get());  
+                gsl_vector_set(X.get(), 0, rValues[0]);
+                gsl_vector_set(X.get(), _N-1, rValues[_N-1]);
 
-                for(auto i = 1; i < _N-1; i++)
+                for(auto i = 0; i < _N; i++)
                 {
-                    vals[i] = gsl_vector_get(X.get(), i-1);
+                    rValues[i] = gsl_vector_get(X.get(), i);
                 }
-                vals[_N-1] = rValues[_N-1];
-                rValues = vals;
             }
         }
 
