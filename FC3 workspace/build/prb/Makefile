@@ -179,6 +179,33 @@ Src/Fit.cpp.s:
 	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Fit.cpp.s
 .PHONY : Src/Fit.cpp.s
 
+Src/GaussRollback.o: Src/GaussRollback.cpp.o
+
+.PHONY : Src/GaussRollback.o
+
+# target to build an object file
+Src/GaussRollback.cpp.o:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/GaussRollback.cpp.o
+.PHONY : Src/GaussRollback.cpp.o
+
+Src/GaussRollback.i: Src/GaussRollback.cpp.i
+
+.PHONY : Src/GaussRollback.i
+
+# target to preprocess a source file
+Src/GaussRollback.cpp.i:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/GaussRollback.cpp.i
+.PHONY : Src/GaussRollback.cpp.i
+
+Src/GaussRollback.s: Src/GaussRollback.cpp.s
+
+.PHONY : Src/GaussRollback.s
+
+# target to generate assembly for a file
+Src/GaussRollback.cpp.s:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/GaussRollback.cpp.s
+.PHONY : Src/GaussRollback.cpp.s
+
 Src/Interp.o: Src/Interp.cpp.o
 
 .PHONY : Src/Interp.o
@@ -221,6 +248,9 @@ help:
 	@echo "... Src/Fit.o"
 	@echo "... Src/Fit.i"
 	@echo "... Src/Fit.s"
+	@echo "... Src/GaussRollback.o"
+	@echo "... Src/GaussRollback.i"
+	@echo "... Src/GaussRollback.s"
 	@echo "... Src/Interp.o"
 	@echo "... Src/Interp.i"
 	@echo "... Src/Interp.s"
