@@ -47,7 +47,7 @@ add_subdirectory(test_set4)
 add_subdirectory(test_set5)
 add_subdirectory(test_set6)
 add_subdirectory(test_set7)
-# add_subdirectory(test_set8)
+add_subdirectory(test_set8)
 # add_subdirectory(test_set9)
 # add_subdirectory(test_set10)
 

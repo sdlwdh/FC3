@@ -35,6 +35,8 @@ gsl/gsl_linalg.h
 -
 vector
 -
+iostream
+-
 
 /usr/local/include/gsl/gsl_blas.h
 gsl/gsl_vector.h

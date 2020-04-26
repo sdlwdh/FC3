@@ -168,5 +168,10 @@
   "directory": "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/test_set7",
   "command": "/usr/bin/clang++   -I\"/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP\" -I/usr/local/include  -Wall -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14   -std=c++14 -o CMakeFiles/test_set7.dir/Src/Main.cpp.o -c \"/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_set7/Src/Main.cpp\"",
   "file": "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_set7/Src/Main.cpp"
+},
+{
+  "directory": "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build/test_set8",
+  "command": "/usr/bin/clang++   -I\"/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP\" -I/usr/local/include  -Wall -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14   -std=c++14 -o CMakeFiles/test_set8.dir/Src/Main.cpp.o -c \"/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_set8/Src/Main.cpp\"",
+  "file": "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/test_set8/Src/Main.cpp"
 }
 ]
