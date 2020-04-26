@@ -1,2 +1,2 @@
-/usr/bin/ar qc libprb.a  CMakeFiles/prb.dir/Src/Data.cpp.o CMakeFiles/prb.dir/Src/Fit.cpp.o CMakeFiles/prb.dir/Src/GaussRollback.cpp.o CMakeFiles/prb.dir/Src/Interp.cpp.o
+/usr/bin/ar qc libprb.a  CMakeFiles/prb.dir/Src/Data.cpp.o CMakeFiles/prb.dir/Src/Fit.cpp.o CMakeFiles/prb.dir/Src/GaussRollback.cpp.o CMakeFiles/prb.dir/Src/Ind.cpp.o CMakeFiles/prb.dir/Src/Interp.cpp.o
 /usr/bin/ranlib libprb.a
