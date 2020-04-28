@@ -6,23 +6,97 @@
 
 #IncludeRegexTransform: 
 
-/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Ind.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Approx.hpp
+vector
+-
+cfl/Function.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Function.hpp
+cfl/Macros.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Macros.hpp
+cfl/Inline/iApprox.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iApprox.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Function.hpp
+functional
+-
+limits
+-
 memory
 -
-valarray
+cfl/Inline/iFunction.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iFunction.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iApprox.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iFunction.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Macros.hpp
+assert.h
 -
-cfl/Inline/iInd.hpp
-/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/cfl/Inline/iInd.hpp
-
-/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/cfl/Inline/iInd.hpp
-
-/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Ind.hpp
-cfl/Ind.hpp
-/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/cfl/Ind.hpp
-
-/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Src/Ind.cpp
-prb/Ind.hpp
-/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Src/prb/Ind.hpp
-iostream
+algorithm
 -
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Approx.hpp
+cfl/Approx.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/cfl/Approx.hpp
+
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Src/Approx.cpp
+prb/Approx.hpp
+/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/CPP/prb/Src/prb/Approx.hpp
+gsl/gsl_chebyshev.h
+-
+
+/usr/local/include/gsl/gsl_chebyshev.h
+gsl/gsl_math.h
+-
+gsl/gsl_mode.h
+-
+
+/usr/local/include/gsl/gsl_inline.h
+
+/usr/local/include/gsl/gsl_machine.h
+limits.h
+-
+float.h
+-
+
+/usr/local/include/gsl/gsl_math.h
+math.h
+-
+gsl/gsl_sys.h
+-
+gsl/gsl_inline.h
+-
+gsl/gsl_machine.h
+-
+gsl/gsl_precision.h
+-
+gsl/gsl_nan.h
+-
+gsl/gsl_pow_int.h
+-
+gsl/gsl_minmax.h
+-
+
+/usr/local/include/gsl/gsl_minmax.h
+gsl/gsl_inline.h
+-
+
+/usr/local/include/gsl/gsl_mode.h
+gsl/gsl_inline.h
+-
+
+/usr/local/include/gsl/gsl_nan.h
+
+/usr/local/include/gsl/gsl_pow_int.h
+gsl/gsl_inline.h
+-
+
+/usr/local/include/gsl/gsl_precision.h
+gsl/gsl_types.h
+-
+
+/usr/local/include/gsl/gsl_sys.h
+
+/usr/local/include/gsl/gsl_types.h
 

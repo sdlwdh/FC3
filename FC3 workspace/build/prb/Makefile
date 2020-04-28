@@ -125,6 +125,33 @@ prb/fast:
 	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/build
 .PHONY : prb/fast
 
+Src/Approx.o: Src/Approx.cpp.o
+
+.PHONY : Src/Approx.o
+
+# target to build an object file
+Src/Approx.cpp.o:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Approx.cpp.o
+.PHONY : Src/Approx.cpp.o
+
+Src/Approx.i: Src/Approx.cpp.i
+
+.PHONY : Src/Approx.i
+
+# target to preprocess a source file
+Src/Approx.cpp.i:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Approx.cpp.i
+.PHONY : Src/Approx.cpp.i
+
+Src/Approx.s: Src/Approx.cpp.s
+
+.PHONY : Src/Approx.s
+
+# target to generate assembly for a file
+Src/Approx.cpp.s:
+	cd "/Users/sweetyyadav/Desktop/Mini 4/FC3/FC3 workspace/build" && $(MAKE) -f prb/CMakeFiles/prb.dir/build.make prb/CMakeFiles/prb.dir/Src/Approx.cpp.s
+.PHONY : Src/Approx.cpp.s
+
 Src/Data.o: Src/Data.cpp.o
 
 .PHONY : Src/Data.o
@@ -269,6 +296,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... prb"
+	@echo "... Src/Approx.o"
+	@echo "... Src/Approx.i"
+	@echo "... Src/Approx.s"
 	@echo "... Src/Data.o"
 	@echo "... Src/Data.i"
 	@echo "... Src/Data.s"
